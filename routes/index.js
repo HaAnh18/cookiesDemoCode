@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 const { getProducts, addToCart, getCart, removeProduct } = require("../controllers/index")
 
-/* GET home page. */
 router.get('/', getProducts)
 
 router.get('/add/:id',addToCart)

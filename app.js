@@ -2,16 +2,8 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 require('dotenv').config()
-const mongoose = require("mongoose")
 const indexRouter = require('./routes/index');
 const app = express();
-
-//CONNECT DATABASE
-mongoose
-.connect(process.env.DATABASE)
-.then(() => console.log("DB connected"))
-.catch((err) => console.log(err));
-
 
 const templatePath = path.join(__dirname, './views');
 app.use(express.json());

@@ -43,10 +43,13 @@ This file contains ENVIRONMENT VARIABLES such as SECRET KEY, which is meant to b
 6. `app.js`
 This file is commonly used to store environment variables for the application.
 
-7. `package.json` & `package-lock.json`
+7. `products.js`
+This file contains the products' information
+
+8. `package.json` & `package-lock.json`
 Manage dependencies and package versions.
 
-8. `README.md`
+9. `README.md`
 A text file containing useful reference information about this project.
 
 ## 2. Packages:
@@ -63,13 +66,7 @@ Embedded JavaScript templating engine for rendering dynamic content on the serve
 4. `express`
 A popular web framework for Node.js that simplifies the process of building web applications. 
 
-5. `mongodb`
-The official MongoDB driver for Node.js. It allows your Node.js application to interact with a MongoDB database.
-
-6. `mongoose`
-A higher-level abstraction over the MongoDB driver, providing a more convenient and structured way to work with MongoDB databases in a Node.js environment.
-
-7. `nodemon`
+5. `nodemon`
 A utility that monitors for changes in your Node.js application and automatically restarts the server when changes are detected. 
 
 ## 3. Build
@@ -94,12 +91,23 @@ $ npm start
 $ node app.js
 ```
 
-## 4. Custom Database
+## 4. Screenshot
 
-To change the database location, you'll need to go to `.env` file and change the variable DATABASE to your own MongoDB link 
+- Homepage 
 
-![Alt text](./public/images/p-1.jpg)
+![Homepage 1](./public/images/homepage-1.JPG)
 
+![Homepage 2](./public/images/homepage-2.JPG)
+
+![Homepage 3](./public/images/homepage-3.JPG)
+
+- Cart page
+
+![Cart page](./public/images/cart.png)
+
+- Cart data in Cookies
+
+![Cart data](./public/images/cookies.png)
 
 ## License
 
