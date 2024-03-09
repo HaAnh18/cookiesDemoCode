@@ -97,9 +97,9 @@ $ node app.js
 
 ![Homepage 1](./public/images/homepage-1.JPG)
 
-![Homepage 2](./public/images/homepage-2.JPG)
+![Homepage 2](./public/images/homepage-2.png)
 
-![Homepage 3](./public/images/homepage-3.JPG)
+![Homepage 3](./public/images/homepage-3.png)
 
 - Cart page
 
