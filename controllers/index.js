@@ -7,7 +7,7 @@ exports.getProducts = (req, res) => {
 exports.addToCart = (req, res) => {
   const product = products.find(product => product.id == req.params.id);
   const cartCookie = req.cookies.cart || '[]';
-  const cartItems = JSON.parse(decodeURIComponent(cartCookie));
+  let cartItems = JSON.parse(decodeURIComponent(cartCookie));
   const checkedProductIndex = cartItems.findIndex(item => item.product.id == req.params.id);
   if (checkedProductIndex === -1) {
     cartItems.push({product: product, quantity: 1})
@@ -37,5 +37,4 @@ exports.removeProduct = (req, res) => {
   const updatedCartString = JSON.stringify(cartItems);
   res.cookie('cart', updatedCartString, { expires: new Date(Date.now() + 24 * 60 * 60 * 1000) , path: '/' });
   res.redirect("/cart")
-  // console.log(cartItems)
 }
