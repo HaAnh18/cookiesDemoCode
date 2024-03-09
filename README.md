@@ -40,16 +40,19 @@ This directory typically contains files responsible for rendering HTML templates
 5. `.env`
 This file contains ENVIRONMENT VARIABLES such as SECRET KEY, which is meant to be hidden and ignored by `.gitignore`.
 
-6. `app.js`
+6. `.gitignore`
+Specifies files and directories to be ignored by Git, preventing them from being tracked.
+
+7. `app.js`
 This file is commonly used to store environment variables for the application.
 
-7. `products.js`
+8. `products.js`
 This file contains the products' information
 
-8. `package.json` & `package-lock.json`
+9. `package.json` & `package-lock.json`
 Manage dependencies and package versions.
 
-9. `README.md`
+10. `README.md`
 A text file containing useful reference information about this project.
 
 ## 2. Packages:
