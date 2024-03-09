@@ -44,7 +44,7 @@ This file contains ENVIRONMENT VARIABLES such as SECRET KEY, which is meant to b
 This file is commonly used to store environment variables for the application.
 
 7. `products.js`
-This file contains the products' information
+This file contains the products' information.
 
 8. `package.json` & `package-lock.json`
 Manage dependencies and package versions.
