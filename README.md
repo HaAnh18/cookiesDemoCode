@@ -94,7 +94,56 @@ $ npm start
 $ node app.js
 ```
 
-## 4. Screenshot
+## 4. Description
+
+### Get Products 
+
+![Get Product](./public/images)
+
+- Responsible for rendering the `index` view, displaying a list of products.
+
+- Uses the `products` array obtained from an external module
+
+### Add To Cart
+
+![Add To Cart](./public/images/addToCart.png)
+
+- Retrieves the product with the specified ID from the `products` array.
+
+- Manages a shopping cart stored in a cookie.
+
+- Increments the quantity if the product is already in the cart; otherwise, adds it with a quantity of 1.
+
+- Updates the `cart` cookie with the modified cart items.
+
+- Redirects to the `/cart` route.
+
+### Get Cart
+
+![Get Cart](./public/images/getCart.png)
+
+- Retrieves the shopping cart from the `cart` cookie.
+
+- Calculates the total quantity and total price of items in the cart.
+
+- Adds a `totalPrice` property to each item in the cart.
+
+- Renders the `cart` view, passing the cart items, total quantity, and total price.
+
+### Remove Product
+
+![Remove Product](./public/images/removeProduct.png)
+
+- Retrieves the shopping cart from the `cart` cookie.
+
+- Filters out the item with the specified ID from the cart.
+
+- Updates the `cart` cookie with the modified cart items.
+
+- Redirects to the `/cart` route.
+
+
+## 5. Screenshot
 
 - Homepage 
 

@@ -55,8 +55,6 @@ exports.getCart = (req, res) => {
 
 // Controller function to handle the '/remove/:id' route
 exports.removeProduct = (req, res) => {
-
-  // Controller function to handle the 'GET /remove/:id' route
   const cartCookie = req.cookies.cart || '[]';
   let cartItems = JSON.parse(decodeURIComponent(cartCookie));
 
