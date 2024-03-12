@@ -98,7 +98,7 @@ $ node app.js
 
 ### Get Products 
 
-![Get Product](./public/images)
+![Get Product](./public/images/getProduct.png)
 
 - Responsible for rendering the `index` view, displaying a list of products.
 
