@@ -145,7 +145,7 @@ $ node app.js
 
 ## 5. Screenshot
 
-- Homepage 
+### Homepage 
 
 ![Homepage 1](./public/images/homepage-1.JPG)
 
@@ -153,11 +153,11 @@ $ node app.js
 
 ![Homepage 3](./public/images/homepage-3.png)
 
-- Cart page
+### Cart page
 
 ![Cart page](./public/images/cart.png)
 
-- Cart data in Cookies
+### Cart data in Cookies
 
 ![Cart data](./public/images/cookies.png)
 
