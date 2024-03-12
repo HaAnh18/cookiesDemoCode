@@ -161,6 +161,6 @@ $ node app.js
 
 ![Cart data](./public/images/cookies.png)
 
-## License
+## 6. License
 
 This software is licensed under the MIT License ©
